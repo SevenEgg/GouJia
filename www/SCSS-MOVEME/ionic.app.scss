@@ -1,0 +1,74 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+//首页
+.homePage {
+	.homeUl {
+		width: 100%;
+		display: flex;
+		padding-left: 8px;
+		padding-right: 8px;
+		.homeLi {
+			// flex: 1;
+			float: left;
+			width: 25%;
+			text-align: center;
+			img {
+				width: 44px;
+				height: 44px;
+				display: inline-block;
+				margin-top: 12px;
+			}
+			
+		}
+	}
+	.spacer {
+		background: #f5f7fa;
+	}
+	
+	.homeTopTitle {
+		text-align: center;
+		padding: 15px 10px;
+		position: relative;
+		a {
+			text-decoration: none;
+			font-size: 14px;
+			text-align: center;
+			color: #959595;
+			position: absolute;
+			top: 16px;
+			right: 10px;
+		}
+		
+	}
+	.card {
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+	
+}
+.contact {
+	form {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+}
+//android title center
+.platform-android .bar .title {
+	right: 0!important;
+	left: 0!important;
+}
+
+.bar .title.title-left {
+	text-align: center;
+}
+
+.bar .button.button-icon {
+	color: #fd3f00;
+}
+
+.bar-light .button.button-icon {
+	font-size: 14px;
+	color: #fd3f00;
+}
+
