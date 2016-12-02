@@ -9837,6 +9837,188 @@ a.button {
 .contact form {
   margin-left: 10px;
   margin-right: 10px; }
+  .contact form .input-label {
+    width: 15%; }
+
+.okHome .card {
+  margin-top: 10px;
+  margin-bottom: 0; }
+
+.balcList .balcUl {
+  margin: 0 10px;
+  text-align: center; }
+  .balcList .balcUl li {
+    margin: 0 1%;
+    width: 48%;
+    height: auto;
+    float: left; }
+    .balcList .balcUl li img {
+      width: 100%;
+      height: 160px; }
+    .balcList .balcUl li h4 {
+      margin-top: 10px; }
+
+.pay {
+  margin: 6px 0; }
+  .pay .listHeader {
+    text-align: center; }
+    .pay .listHeader h3 {
+      margin: 0; }
+  .pay .spacer {
+    background: #f5f7fa; }
+  .pay .listContent {
+    padding-top: 20px;
+    text-align: center;
+    background: url("http://www.goujiawang.com/goujiaWap/images/m-pay-bg.jpg"); }
+    .pay .listContent img {
+      width: 70%;
+      margin-top: 10px;
+      background-size: cover; }
+    .pay .listContent span {
+      font-size: 12px; }
+    .pay .listContent p {
+      font-size: 12px;
+      text-align: left;
+      color: #9a9a9a;
+      width: 92%;
+      margin: 0 auto; }
+  .pay .listContentPay {
+    width: 100%;
+    text-align: center; }
+    .pay .listContentPay img {
+      width: 100%;
+      background-size: cover; }
+    .pay .listContentPay .swiper-slide {
+      width: 100%;
+      background-size: cover; }
+  .pay .payBooter {
+    padding: 20px 0;
+    text-align: center;
+    background: #f4f4f4; }
+
+.security {
+  margin: 6px 0; }
+  .security .listHeader {
+    text-align: center; }
+    .security .listHeader h3 {
+      margin: 0; }
+  .security .spacer {
+    background: #f5f7fa; }
+  .security .listContent {
+    padding-top: 20px;
+    text-align: center;
+    background: url("http://www.goujiawang.com/goujiaWap/images/m-pay-bg.jpg"); }
+    .security .listContent img {
+      width: 70%;
+      margin-top: 10px;
+      background-size: cover; }
+    .security .listContent .img2 {
+      margin-top: 0;
+      width: 100%; }
+    .security .listContent p {
+      font-size: 12px;
+      text-align: left;
+      color: #9a9a9a;
+      width: 92%;
+      margin: 0 auto; }
+  .security .listContentPay {
+    text-align: center; }
+    .security .listContentPay img {
+      width: 100%;
+      background-size: cover; }
+    .security .listContentPay p {
+      padding: 4px 10px;
+      text-align: left;
+      font-size: 13px;
+      color: #6f6f6f; }
+    .security .listContentPay .p1 {
+      text-align: center; }
+
+.insurance {
+  margin: 6px 0; }
+  .insurance .listHeader {
+    text-align: center; }
+    .insurance .listHeader img {
+      width: 96%; }
+    .insurance .listHeader p {
+      text-align: left;
+      padding: 0 10px; }
+  .insurance .spacer {
+    background: #f5f7fa; }
+  .insurance .listContent {
+    padding-top: 10px;
+    text-align: center; }
+    .insurance .listContent .floatBox {
+      zoom: 1; }
+      .insurance .listContent .floatBox .left {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 10px 5px 0 5px; }
+        .insurance .listContent .floatBox .left img {
+          width: 100%; }
+        .insurance .listContent .floatBox .left h5 {
+          margin-top: 50px; }
+        .insurance .listContent .floatBox .left p {
+          font-size: 13px;
+          color: #9a9a9a; }
+          .insurance .listContent .floatBox .left p span {
+            color: #ec631a; }
+  .insurance .payback {
+    margin-top: 10px;
+    text-align: center; }
+  .insurance .listContentPay {
+    text-align: center; }
+    .insurance .listContentPay img {
+      width: 100%;
+      background-size: cover; }
+    .insurance .listContentPay h4 {
+      margin-top: 20px;
+      margin-bottom: 0; }
+    .insurance .listContentPay p {
+      font-size: 16px;
+      color: #ec631a;
+      text-align: center; }
+
+.loan {
+  margin: 6px 0; }
+  .loan .listHeader {
+    text-align: center; }
+    .loan .listHeader h3 {
+      margin: 0; }
+  .loan .spacer {
+    background: #f5f7fa; }
+  .loan .listContent {
+    padding-top: 20px;
+    text-align: center;
+    background: url("http://www.goujiawang.com/goujiaWap/images/m-pay-bg.jpg"); }
+    .loan .listContent img {
+      width: 70%;
+      margin-top: 10px;
+      background-size: cover; }
+    .loan .listContent span {
+      font-size: 12px; }
+    .loan .listContent p {
+      font-size: 12px;
+      text-align: left;
+      color: #9a9a9a;
+      width: 92%;
+      margin: 0 auto; }
+  .loan .listContentPay {
+    width: 100%;
+    text-align: center; }
+    .loan .listContentPay img {
+      padding: 0 10px;
+      width: 100%;
+      background-size: cover; }
+    .loan .listContentPay p {
+      float: left;
+      font-size: 11px;
+      width: 33.333%; }
+    .loan .listContentPay .left {
+      padding-left: 10px; }
+    .loan .listContentPay .right {
+      padding-right: 2px; }
 
 .platform-android .bar .title {
   right: 0 !important;

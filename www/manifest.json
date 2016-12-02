@@ -1,6 +1,6 @@
 {
-  "name": "My Ionic App",
-  "short_name": "My Ionic App",
+  "name": "构家",
+  "short_name": "goujia",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
