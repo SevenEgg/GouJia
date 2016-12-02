@@ -18,7 +18,7 @@ ionic build ios / ionic build android
 
 ```
 ### 下载安装包    
-	[安卓](./img/android-debug.apk)
+	./img/android-debug.apk
 
 ### 截图
 
