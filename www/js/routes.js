@@ -7,58 +7,58 @@ angular.module('app.routes', [])
     // Set up the various states which the app can be in.
     // Each state's controller can be found in controllers.js
     $stateProvider
-    .state('page1', {
+    .state('home', {
         url: '/home',
-        templateUrl: 'templates/page1.html',
-        controller: 'page1Ctrl'
+        templateUrl: 'templates/home.html',
+        controller: 'homeCtrl'
     })
 
-    .state('page2', {
+    .state('contact', {
         url: '/contact',
-        templateUrl: 'templates/page2.html',
-        controller: 'page2Ctrl'
+        templateUrl: 'templates/contact.html',
+        controller: 'contactCtrl'
     })
 
-    .state('page3', {
+    .state('okHome', {
         url: '/okHome',
-        templateUrl: 'templates/page3.html',
-        controller: 'page3Ctrl'
+        templateUrl: 'templates/okHome.html',
+        controller: 'okHomeCtrl'
     })
 
-    .state('page4', {
+    .state('balcList', {
         url: '/balcList',
-        templateUrl: 'templates/page4.html',
-        controller: 'page4Ctrl'
+        templateUrl: 'templates/balcList.html',
+        controller: 'balcListCtrl'
     })
 
-    .state('page5', {
+    .state('madeList', {
         url: '/madeList',
-        templateUrl: 'templates/page5.html',
-        controller: 'page5Ctrl'
+        templateUrl: 'templates/madeList.html',
+        controller: 'madeListCtrl'
     })
 
-    .state('page6', {
+    .state('pay', {
         url: '/pay',
-        templateUrl: 'templates/page6.html',
-        controller: 'page6Ctrl'
+        templateUrl: 'templates/pay.html',
+        controller: 'payCtrl'
     })
 
-    .state('page9', {
+    .state('loan', {
         url: '/loan',
-        templateUrl: 'templates/page9.html',
-        controller: 'page9Ctrl'
+        templateUrl: 'templates/loan.html',
+        controller: 'loanCtrl'
     })
 
-    .state('page7', {
+    .state('security', {
         url: '/security',
-        templateUrl: 'templates/page7.html',
-        controller: 'page7Ctrl'
+        templateUrl: 'templates/security.html',
+        controller: 'securityCtrl'
     })
 
-    .state('page8', {
+    .state('insurance', {
         url: '/insurance',
-        templateUrl: 'templates/page8.html',
-        controller: 'page8Ctrl'
+        templateUrl: 'templates/insurance.html',
+        controller: 'insuranceCtrl'
     })
 
     $urlRouterProvider.otherwise('/home')

@@ -1,44 +1,44 @@
 angular.module('app.controllers', [])
 
-.controller('page1Ctrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('homeCtrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function($scope, $stateParams, $state) {
         $scope.goContact = function() {
-            $state.go('page2');
+            $state.go('contact');
         }
 
         $scope.goOkWork = function() {
-            $state.go('page3');
+            $state.go('okHome');
         }
 
         $scope.goBalcList = function() {
-            $state.go('page4');
+            $state.go('balcList');
         }
 
         $scope.goMadeList = function() {
-            $state.go('page5');
+            $state.go('madeList');
         }
 
         $scope.goPay = function() {
-            $state.go('page6');
+            $state.go('pay');
         }
 
         $scope.goSecurity = function() {
-            $state.go('page7');
+            $state.go('security');
         }
 
         $scope.goInsurance = function() {
-            $state.go('page8');
+            $state.go('insurance');
         }
 
         $scope.goLoan = function() {
-            $state.go('page9');
+            $state.go('loan');
         }
     }
 ])
 
-.controller('page2Ctrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('contactCtrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function($scope, $stateParams, $state) {
@@ -69,106 +69,106 @@ angular.module('app.controllers', [])
         }
 
         $scope.goHome = function() {
-            $state.go('page1');
+            $state.go('home');
         }
 
     }
 ])
 
-.controller('page3Ctrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('okHomeCtrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function($scope, $stateParams, $state) {
         $scope.goContact = function() {
-            $state.go('page2');
+            $state.go('contact');
         }
 
         $scope.goHome = function() {
-            $state.go('page1');
+            $state.go('home');
         }
     }
 ])
 
-.controller('page4Ctrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('balcListCtrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function($scope, $stateParams, $state) {
         $scope.goContact = function() {
-            $state.go('page2');
+            $state.go('contact');
         }
 
         $scope.goHome = function() {
-            $state.go('page1');
+            $state.go('home');
         }
     }
 ])
 
-.controller('page5Ctrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('madeListCtrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function($scope, $stateParams, $state) {
         $scope.goContact = function() {
-            $state.go('page2');
+            $state.go('contact');
         }
 
         $scope.goHome = function() {
-            $state.go('page1');
+            $state.go('home');
         }
     }
 ])
 
-.controller('page6Ctrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('payCtrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function($scope, $stateParams, $state) {
         $scope.goContact = function() {
-            $state.go('page2');
+            $state.go('contact');
         }
 
         $scope.goHome = function() {
-            $state.go('page1');
+            $state.go('home');
         }
     }
 ])
 
-.controller('page9Ctrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('loanCtrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function($scope, $stateParams, $state) {
         $scope.goContact = function() {
-            $state.go('page2');
+            $state.go('contact');
         }
 
         $scope.goHome = function() {
-            $state.go('page1');
+            $state.go('home');
         }
     }
 ])
 
-.controller('page7Ctrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('securityCtrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function($scope, $stateParams, $state) {
         $scope.goContact = function() {
-            $state.go('page2');
+            $state.go('contact');
         }
 
         $scope.goHome = function() {
-            $state.go('page1');
+            $state.go('home');
         }
     }
 ])
 
-.controller('page8Ctrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('insuranceCtrl', ['$scope', '$stateParams', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function($scope, $stateParams, $state) {
         $scope.goContact = function() {
-            $state.go('page2');
+            $state.go('contact');
         }
 
         $scope.goHome = function() {
-            $state.go('page1');
+            $state.go('home');
         }
     }
 ])
