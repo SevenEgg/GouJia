@@ -1,0 +1,26 @@
+<ion-view title="立即预约" hide-back-button="true" id="page2" class="contact">
+    <ion-nav-buttons side="left" class="has-header">
+        <button class="button button-icon icon ion-android-home" ng-click="goHome();"></button>
+    </ion-nav-buttons>
+    <ion-content padding="false" class=" manual-remove-top-padding has-header">
+        <div>
+            <img src="img/bg.png" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+        </div>
+        <div class="spacer" style="width: 100%; height: 18px;"></div>
+        <form id="page2-form1" class="list">
+            <label class="item item-input" id="page2-input1" name="name">
+                <span class="input-label">姓名</span>
+                <input type="text" placeholder="请输入您的姓名" ng-model="data.name">
+            </label>
+            <label class="item item-input" name="phone">
+                <span class="input-label">手机</span>
+                <input type="tel" ng-model="data.phone" maxlength="11" placeholder="请输入您的手机号">
+            </label>
+            <label class="item item-input" name="city">
+                <span class="input-label">城市</span>
+                <input type="text" ng-model="data.city" placeholder="输入您居住地">
+            </label>
+            <button id="page2-button1" ng-click="test();" style="font-weight:600;font-size:18px;" class="button button-assertive  button-block">立即预约</button>
+        </form>
+    </ion-content>
+</ion-view>
